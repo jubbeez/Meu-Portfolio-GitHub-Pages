@@ -15,61 +15,123 @@
 
     <!-- https://www.youtube.com/watch?v=JaOnoBTVKec -->
     <!-- https://www.youtube.com/watch?v=iBgeXW79kLI -->
-    <div class="caixa-principal">
+
+    <div class="caixa-principal" id="home">
         <nav>
             <h2>Portfó<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale comigo</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
 
         <div class="meu-nome">
-            <h1>Júlia<span>Guarnieri</span></h1>
+            <h1>Júlia<span> Guarnieri</span></h1>
             <h3>Desenvolvedora Front End</h3>
         </div>
     </div>
 
-        <section>
-            <img src="./img/github.png">
+        <section id="sobre">
+            <img src="./img/foto juju.jpg">
             <div>
                 <h2>Sobre mim</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nesciunt ipsam voluptatum voluptate, voluptatem sunt sequi adipisci fuga ex
-                 deserunt molestiae, esse dicta corporis a laborum voluptates tenetur. Illum, nostrum.</p>
-                <button>Entre em contato comigo</button>
+                <p>Moro em São Paulo. Estou no segundo semestre de Engenharia de Software, com término previsto para julho de 2026.
+                    <br>
+                    <br>
+                    Tecnologias que conheço:
+                    <br>
+                    - HTML
+                    <br>
+                    - CSS
+                    <br>
+                    - JavaScript
+                    <br>
+                    - React.JS
+                    <br>
+                    - Git e GitHub
+                    <br>
+                    - C#
+                    <br>
+                    - .NET
+                    <br>
+                    - Python
+                    <br>
+                    <br>
+                   Participo do projeto One Next Education, uma parceria da Oracle com a Alura, onde estou aprendendo Lógica de Programação, HTML, CSS e JavaScript;
+                    Além de diversos cursos de Soft Skills. 
+                    <br>
+                    <br>
+                    Crio e reproduzo projetos meus, e de outros desenvolvedores, para aprender conceitos e novas técnicas.
+                    <br>
+                    <br>
+                    Faço alguns outros cursos por fora, como Python e C#, para aprimorar cada vez mais meus conhecimentos em programação.</p>
             </div>
-        
-        </section>
+                </section>
     
-        <div class="projetos">
-            <h2>Principais Projetos</h2>
+        <div class="projetos" id="projetos-id">
+            <h2>Alguns dos meus projetos</h2>
             <div class="conjunto-cards">
                 <div class="card">
-                    <img src="./img/email.png">
-                    <h5>Netflix</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt aliquam rerum neque ab quidem laudantium cumque cupiditate soluta! 
-                        Reprehenderit, eveniet ducimus. Corporis officiis provident dolore soluta fugiat! Sunt, doloremque!</p>
-                        <a>Ver Projeto</a>
+                    <img src="./img/logo-branco.png">
+                    <h5>Barbearia</h5>
+                    <p>Página desenvolvida com HTML e CSS de uma barbearia que tem como lema proporcionar auto-estima e qualidade de vida aos seus clientes.</p>
+                        <a href="https://jubbeez.github.io/Barbearia-Alura/produtos.html" target="_blank">Ver Projeto</a>
+                        <!-- esse target vai abrir o projeto em uma aba nova, não na mesma -->
                 </div>
 
                 <div class="card">
-                    <img src="./img/email.png">
-                    <h5>Netflix</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt aliquam rerum neque ab quidem laudantium cumque cupiditate soluta! 
-                        Reprehenderit, eveniet ducimus. Corporis officiis provident dolore soluta fugiat! Sunt, doloremque!</p>
-                        <a>Ver Projeto</a>
+                    <img src="./img/cripto.png">
+                    <h5>Encriptador/ Desencriptador</h5>
+                    <p>Site desenvolvido com HTML, CSS e JavaScript que criptografa e descriptografa suas mensagens.</p>
+                        <a href="https://jubbeez.github.io/Encriptador-Desencriptador/" target="_blank">Ver Projeto</a>
                 </div>
 
                 <div class="card">
-                    <img src="./img/email.png">
-                    <h5>Netflix</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt aliquam rerum neque ab quidem laudantium cumque cupiditate soluta! 
-                        Reprehenderit, eveniet ducimus. Corporis officiis provident dolore soluta fugiat! Sunt, doloremque!</p>
-                        <a>Ver Projeto</a>
+                    <img src="./img/locatto.png  ">
+                    <h5>Locatto Imóveis</h5>
+                    <p>Aplicativo de locação de imóveis.
+                        <br>
+                        Prototipação de uma interface mobile usando Figma.
+                    </p>
+                        <a href="https://www.figma.com/file/ppvSRnX0zxCjUCUq1V1IbY/Locatto-Im%C3%B3veis?node-id=0%3A1&t=CAyQfYAgRniOs4vF-1" target="_blank">Ver Projeto</a>
                 </div>
             </div>
         </div>
+
+        <div class="projetos" id="projetos-id">    
+            <div class="conjunto-cards">
+                <div class="card" id="card-dsmeta">
+                    <img src="./img/DsMeta.png">
+                    <h5>DsMeta Site</h5>
+                    <p> Layout de site estático a partir do figma.com desenvolvido em HTML e CSS.
+                        <br>
+
+                        O projeto foi criado durante a "semana spring react" do professor Nelio Alves.</p>
+                        <a href="https://jubbeez.github.io/Site-estatico-feito-em-HTML-e-CSS/" target="_blank">Ver Projeto</a>
+                </div>
+
+                <div class="card">
+                    <img src="./img/quizz.png">
+                    <h5>Quizz</h5>
+                    <p>Teste seu conhecimento da escrita de palavras que costumam confundir na lingua inglesa</p>
+                        <a href="https://jubbeez.github.io/Encriptador-Desencriptador/" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+
+        <footer id="fale-comigo">
+            <h5>Júlia Guarnieri</h5>
+            <p>Para mais informações</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/júlia-guarnieri-dev" target="_blank"><img src="./img/linkedin.png"></a>
+                <a href="https://github.com/jubbeez" target="_blank"><img src="./img/github.png"></a>
+                <a href="mailto:juliaguarnieribs@gmail.com" target="_blank"><img src="./img/email.png"></a>
+                <a href="https://wa.me/5511988463821" target="_blank"><img src="./img/telefone.png"></a>
+            </div>
+        </footer>
+
 </body>
 </html>
